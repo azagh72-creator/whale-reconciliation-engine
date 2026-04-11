@@ -1,0 +1,24 @@
+{
+  "name": "whale-reconciliation-engine",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Flying Whale Reconciliation Engine — Universal Agent Payment Audit Protocol. ALL RIGHTS RESERVED.",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/index.ts",
+    "start:v2": "tsx src/index-v2.ts",
+    "dev": "tsx src/index.ts",
+    "dev:v2": "tsx src/index-v2.ts",
+    "aibtc": "tsx src/index-v2.ts aibtc",
+    "solana": "tsx src/index-v2.ts solana",
+    "all": "tsx src/index-v2.ts all"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.7.0",
+    "fast-csv": "^5.0.1",
+    "javascript-obfuscator": "^4.1.1"
+  }
+}
